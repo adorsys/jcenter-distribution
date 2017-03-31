@@ -1,4 +1,7 @@
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
+plugins {
+  id "com.github.dcendents.android-maven" version "1.5"
+}
 
 group = publishedGroupId                               // Maven Group ID for the artifact
 
