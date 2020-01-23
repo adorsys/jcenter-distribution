@@ -1,4 +1,4 @@
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 
 group = publishedGroupId                               // Maven Group ID for the artifact
 
@@ -14,6 +14,7 @@ install {
                 // Add your description here
                 name libraryName
                 description libraryDescription
+                version = libraryVersion
                 url siteUrl
 
                 // Set your license
